@@ -22,6 +22,9 @@ jobs:
         - ruby: 3.0
           gemfile: "gemfiles/activerecord6.gemfile"
           db: "sqlite"
+        - ruby: truffleruby-head
+          gemfile: "gemfiles/activerecord6.gemfile"
+          db: "postgres"           
         - ruby: 3.0
           gemfile: "gemfiles/railsmaster.gemfile"
           db: "sqlite"
